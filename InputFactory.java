@@ -35,4 +35,9 @@ public class InputFactory {
   public String getInput() {
     return inputText;
   }
+
+  public void add(JPanel panel) {
+    panel.add(label);
+    panel.add(input);
+  }
 }
